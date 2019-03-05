@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#画像投稿機能作成
+gem "carrierwave"
+
 #bcryptパスワードの暗号化
 gem 'bcrypt'
 
