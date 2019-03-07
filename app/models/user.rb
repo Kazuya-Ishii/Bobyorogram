@@ -8,7 +8,6 @@ class User < ApplicationRecord
  format: /\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i
 
  has_many :topics
- has_many :favorites
+ has_many :favorites, dependent: :destroy
  has_many :favorite_topics, through: :favorites, source: 'topic'
- has_many :comments
 end

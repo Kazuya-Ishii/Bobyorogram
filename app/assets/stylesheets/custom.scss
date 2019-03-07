@@ -137,5 +137,27 @@ h1, h2 {
       height: 30px;
       margin-left: 20px;
     }
+
+    .topic-favorite-icon{
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+    }
+
+    .colorfilter-base {
+        background-color: red;
+        display: inline-block;
+      }
+
+    .topic-favorite-red-icon{
+      opacity: 0.6;
+    display: block;
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+      filter: hue-rotate(90deg);
+      filter: grayscale(100%);
+      filter: sepia(100%);
+    }
   }
 }
